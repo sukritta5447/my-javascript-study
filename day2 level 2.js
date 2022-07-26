@@ -19,3 +19,15 @@ console.log(ja.includes('on')); // true
 let sentence = 'I hope this course is not full of jargon.';
 console.log(sentence.includes('jargon')); // true
 
+let randomNum = Math.random() *100;
+console.log(randomNum); // random number between 0 and 100
+
+let randomNum = Math.floor((Math.random() * 100) + 50);
+console.log(randomNum); // random number between 50 and 100
+
+let randomNum = Math.random() * 255; // random number between 0 and 255
+
+let string = 'JavaScript';
+let randomJs = Math.random(string);
+console.log(randomJs); // not sure about formula for this one and don't know the exact answer
+
