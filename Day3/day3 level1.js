@@ -74,6 +74,16 @@ let findOn = /on/gi
 console.log(!(dragon.match(findOn))) // false
 console.log(!(python.match(findOn))) // false
 
+------
+
+const now = new Date();
+console.log(now.getFullYear()) // 2022
+console.log(now.getMonth()) // 11, December
+console.log(now.getDate()) // 2
+console.log(now.getDay()) // 5, friday
+console.log(now.getHours()) // 13
+console.log(now.getMinutes()) // 33
+console.log(now.getTime()) // 1669962817198
 
 
 
