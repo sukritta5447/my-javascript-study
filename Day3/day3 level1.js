@@ -66,9 +66,13 @@ console.log('python'.length != 'jargon'.length);
 !(4 > 3 && 10 < 12) // false
 !(4 > 3 && 10 > 12) // true
 !(4 === '4') // true
+
 There is no 'on' in both dragon and python
-
-
+let dragon = 'dragon'
+let python = 'python'
+let findOn = /on/gi
+console.log(!(dragon.match(findOn))) // false
+console.log(!(python.match(findOn))) // false
 
 
 
